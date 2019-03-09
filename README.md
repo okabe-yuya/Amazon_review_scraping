@@ -35,6 +35,8 @@ CLI have argument(boolean)
 - true: fetch from all page(make page query and fetch all)
 - false: fetch from first page only
 
+default is false
+
 this is sample for execute this projects
 
 ```
