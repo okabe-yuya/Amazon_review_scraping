@@ -15,7 +15,29 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/amazon_review_sc](https://hexdocs.pm/amazon_review_sc).
+## how to use??
+### first: setup your text file
+you put _.txt file top directory
+and write target url path in .txt file
 
+example```
+https://example.com/1
+https://example.com/2
+https://example.com/2
+```
+
+target url must top product page, not all review page
+and don't add \n last line !!
+
+### second
+CLI have argument(boolean)
+- true: fetch from all page(make page query and fetch all)
+- false: fetch from first page only
+
+this is sample for execute this projects
+```
+# execute local env
+./amazon_review_sc true #fetch from all page
+./amazon_review_sc false #fetch from first page only
+
+```
