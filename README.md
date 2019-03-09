@@ -20,7 +20,8 @@ end
 you put _.txt file top directory
 and write target url path in .txt file
 
-example```
+example.txt
+```
 https://example.com/1
 https://example.com/2
 https://example.com/2
@@ -35,8 +36,9 @@ CLI have argument(boolean)
 - false: fetch from first page only
 
 this is sample for execute this projects
+
 ```
-# execute local env
+
 ./amazon_review_sc true #fetch from all page
 ./amazon_review_sc false #fetch from first page only
 
